@@ -1,0 +1,24 @@
+NET "anode<3>" LOC = "P17";
+NET "anode<2>" LOC = "P18";
+NET "anode<1>" LOC = "N15";
+NET "anode<0>" LOC = "N16";
+
+NET "seven_segment<6>" LOC = "T17";
+NET "seven_segment<5>" LOC = "T18";
+NET "seven_segment<4>" LOC = "U17";
+NET "seven_segment<3>" LOC = "U18";
+NET "seven_segment<2>" LOC = "M14";
+NET "seven_segment<1>" LOC = "N14";
+NET "seven_segment<0>" LOC = "L14";
+
+NET "seven_seg_clk"    LOC = "V10";
+
+NET "switches<0>" LOC="T10";
+NET "switches<1>" LOC="T9";
+NET "switches<2>" LOC="V9";
+
+NET "clk" LOC="C9";
+NET "reset" LOC="V8";
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE; 
